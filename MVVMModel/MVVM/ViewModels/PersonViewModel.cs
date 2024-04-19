@@ -15,7 +15,7 @@ namespace MVVMModel.MVVM.ViewModels
                 Married = true,
                 BirthDate = new DateTime(1988, 05, 24),
                 Weight = 80,
-                LunchTime = new TimeSpan(10, 0, 0)
+                Lunchtime = new TimeSpan(10, 0, 0)
             };
         }
     }

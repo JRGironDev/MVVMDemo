@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MVVMModel.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[/Users/josequinonez/C\#/MAUI/MVVMDemo/MVVMModel/MVVM/Views/PeopleView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MVVMModel.MVVM.Views.PeopleView.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM/Views/PeopleView.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM/Views/PeopleView.xaml
+
 [/Users/josequinonez/C\#/MAUI/MVVMDemo/MVVMModel/MVVM/Views/PersonView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MVVMModel.MVVM.Views.PersonView.xaml

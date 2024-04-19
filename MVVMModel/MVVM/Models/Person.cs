@@ -17,6 +17,6 @@ namespace MVVMModel.MVVM.Models
 
         public int Weight { get; set; }
 
-        public TimeSpan LunchTime { get; set; }  
+        public TimeSpan Lunchtime { get; set; }  
     }
 }
