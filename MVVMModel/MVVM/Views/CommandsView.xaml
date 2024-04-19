@@ -9,6 +9,12 @@
         <Button
             Text="Click me"
             Command="{Binding ClickCommand}" />
+
+        <SearchBar
+            x:Name="searchBar"
+            Placeholder="Search"
+            SearchCommand="{Binding SearchCommand}"
+            SearchCommandParameter="{Binding Source={x:Reference searchBar}, Path=Text}"/>
     </StackLayout>    
 
 </ContentPage> 
