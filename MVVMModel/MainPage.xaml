@@ -3,4 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MVVMModel.MainPage">
 
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+
+            <Entry Placeholder="Number 1" Text="{Binding Number1}" />
+            <Entry Placeholder="Number 2" Text="{Binding Number2}" />
+            <Entry Placeholder="Result" Text="{Binding Result}"/>
+
+            <Button 
+                Text="Calculate" 
+                Command="{Binding AddCommand}"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

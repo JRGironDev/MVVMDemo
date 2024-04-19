@@ -8,8 +8,6 @@ namespace MVVMModel.MVVM.ViewModels
 
         public ICommand SearchCommand { get; }
 
-        //public string SearchTerm { get; set; }
-
         public CommandsViewModel()
         {
             ClickCommand = new Command(() =>
