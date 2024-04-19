@@ -5,9 +5,33 @@
 
     <StackLayout
             VerticalOptions="Center"
-            HorizontalOptions="Center" >
-        <Label
-            Text="{Binding Person.Name}"
-            FontSize="50"/>
+            HorizontalOptions="Center" 
+            Spacing="30">
+            <Label
+                Text="{Binding Person.Name}"
+                FontSize="50"
+                HorizontalOptions="Center"/>
+
+            <Slider 
+                Maximum="100"
+                Minimum="0"
+                Value="{Binding Person.Age}"
+                HorizontalOptions="Center"/>
+
+            <Switch 
+                IsToggled="{Binding Person.Married}"
+                HorizontalOptions="Center"/>
+
+            <DatePicker 
+                Date="{Binding Person.BirthDate}"
+                HorizontalOptions="Center"/>
+
+            <Entry 
+                Text="{Binding Person.Weight}"
+                HorizontalOptions="Center"/>
+
+            <TimePicker 
+                Time="{Binding Person.LunchTime}"
+                HorizontalOptions="Center"/>
     </StackLayout>
 </ContentPage>
