@@ -1,4 +1,5 @@
 using MVVMModel.MVVM.Models;
+using MVVMModel.MVVM.ViewModels;
 
 namespace MVVMModel.MVVM.Views;
 
@@ -8,12 +9,6 @@ namespace MVVMModel.MVVM.Views;
         {
             InitializeComponent();
 
-            var person = new Person
-            {
-                Name = "José",
-                Age = 35
-            };
-
-            BindingContext = person;
+            BindingContext = new PersonViewModel();
         }
     }
